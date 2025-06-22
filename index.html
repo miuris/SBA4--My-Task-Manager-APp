@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Task Manager</h1>
+    <hr>
+    <header class="text-center"></header>
+    
+    
+<div class="add-task-box">
+    <h2>Add New Task</h2>
+    <input type="text" id="taskName" placeholder="Task Name">
+    <input type="text" id="category" placeholder="Category">
+    <input type="date" id="deadline">
+
+    <select id="status">
+        <option value="Pending">Pending</option>
+        <option value="In Progress">In Progress</option>
+        <option value="Completed">Completed</option>
+    </select>
+
+    <button id="addBtn">Add Task</button>
+</div>
+
+<div class="filter-box">
+    <h2>Filter Tasks</h2>
+    <button class="filter-btn">All</button>
+    <button class="filter-btn">Pending</button>
+    <button class="filter-btn">In Progress</button>
+    <button class="filter-btn">Completed</button>
+    <button class="filter-btn">Overdue</button>
+    <button class="filter-btn">Deleted</button>
+
+
+
+</div>
+
+<div class="task-display">
+    <h2>My Tasks</h2>
+    <div id="taskList">
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
