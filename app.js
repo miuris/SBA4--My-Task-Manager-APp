@@ -6,7 +6,7 @@ function addTask() {
   const taskText = inputTask.value;
 
   const li = document.createElement("li");
-  li.innerHTML = `$("taskOutput") <button class="delete">Delete</button>`
+  li.innerHTML = `${taskText} <button class="delete">Delete</button>`
   taskOutput.appendChild(li);
   inputTask.value = "";  
 }
