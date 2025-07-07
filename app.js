@@ -12,3 +12,10 @@ function addTask() {
 }
 
 addTaskBtn.addEventListener("click", addTask);
+
+function deleteTask(e) {
+  if(e.target.classList.contains("delete")){
+e.target.parentElement.remove();
+  }
+}
+taskOutput.addEventListener("click", deleteTask);
