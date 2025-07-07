@@ -16,7 +16,7 @@ This is a task management web app that lets users add, update, delete, filter, a
 - HTML5
 - CSS3
 - JavaScript (ES6+)
-- Web APIs: `localStorage`, `DOM`, `Date`
+- Web APIs: `localStorage` JSON parse, JSON strigify
 
 
 # How It Works
